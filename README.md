@@ -25,7 +25,7 @@ The recommend engine provides three solutions in different levels. In the docume
 
 ## Conda Environment
 To set up the environment
-1. git clone https://github.com/gabyngsp/PLP-CA10-Steam_Helper
+1. git clone https://github.com/owenvvv/Steam_helper.git
 2. cd PLP-CA10-Steam_Helper
 3. conda env create --file environment.yaml
 4. conda activate Steam_Helper
