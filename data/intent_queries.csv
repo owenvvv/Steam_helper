@@ -1,0 +1,108 @@
+Query,Intent
+Need help please,commonQ.assist
+Need help,commonQ.assist
+I need some info,commonQ.assist
+Will you help me?,commonQ.assist
+Need help plz,commonQ.assist
+Can you help me?,commonQ.assist
+i need help,commonQ.assist
+Can you tell some info,commonQ.assist
+Help me please,commonQ.assist
+hello,commonQ.how
+hi,commonQ.how
+Hows life?,commonQ.how
+How was your day?,commonQ.how
+How you doin?,commonQ.how
+Whats up?,commonQ.how
+What's happening?,commonQ.how
+Wassup?,commonQ.how
+How you doing?,commonQ.how
+Are you fine?,commonQ.how
+Are you good?,commonQ.how
+How are you?,commonQ.how
+How are you doing?,commonQ.how
+Who are you?,commonQ.name
+What can I call you?,commonQ.name
+Your name?,commonQ.name
+Can you tell me your name?,commonQ.name
+Are you there?,commonQ.name
+Any one there?,commonQ.name
+What is your name?,commonQ.name
+are you abir?,commonQ.name
+Is anyone there?,commonQ.name
+Your name is?,commonQ.name
+Who is chatting?,commonQ.name
+Tell me about your self?,commonQ.name
+Who are you?,commonQ.name
+Who am I chatting with?,commonQ.name
+What's your name?,commonQ.name
+What should I say as your name?,commonQ.name
+Tell me your name?,commonQ.name
+What are you called?,commonQ.name
+Wait for two minutes,commonQ.wait
+will you please wait,commonQ.wait
+Can you  please wait,commonQ.wait
+Please wait,commonQ.wait
+Wait for some time,commonQ.wait
+Want you to wait for me,commonQ.wait
+Can you wait for two minutes,commonQ.wait
+Is there any strategy game,recommend
+Can you recommend me an adventure game,recommend
+I am looking for a strategy game,recommend
+What are the best sports games you have,recommend
+Are there any good action game you can recommend,recommend
+Any action game?,recommend
+Tell me a good action game,recommend
+Recommend me a RPG game,recommend
+Please recommend a shooting game,recommend
+Find me a shooting game,recommend
+I am looking for shooting zombie game,recommend
+looking for killing zombie game,recommend
+any zombie game,recommend
+Introduce me a zombie game,recommend
+any game to introduce me,recommend
+any game I must try,recommend
+any game I should try,recommend
+any game fun to play,recommend
+any violent game,recommend
+I would like you to recommend a game,recommend
+Show me some newly release game,recommend
+Show me some popular game,recommend
+how much,recommend.price
+What is the cost,recommend.price
+What is the price,recommend.price
+How much to own it,recommend.price
+how much to pay,recommend.price
+pay how much,recommend.price
+price?,recommend.price
+cost?,recommend.price
+what is the rating,recommend.age
+what is the age limit,recommend.age
+is there age limit,recommend.age
+what is the age restriction,recommend.age
+what is the min age to play,recommend.age
+any age limit,recommend.age
+what age to play,recommend.age
+can you tell me the age limit,recommend.age
+I am 12. Can I play?,recommend.age
+I am 10 years old. Can I play?,recommend.age
+I am 16 yrs old. Can I play?,recommend.age
+Hate you,response.abusive
+Go die,response.abusive
+Kill you,response.abusive
+Damn you,response.abusive
+Please die,response.abusive
+Dislike you,response.abusive
+FU,response.abusive
+Fuck You,response.abusive
+You should kill yourself,response.abusive
+I am going to kill you,response.abusive
+I am going to fuck you,response.abusive
+You did not understand,response.negative
+You are not listening,response.negative
+You are hopeless,response.negative
+This is hopesless,response.negative
+This is useless,response.negative
+You are useless,response.negative
+This is a waste of time,response.negative
+Stop wasting my time,response.negative

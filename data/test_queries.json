@@ -1,0 +1,245 @@
+{
+	"recommend.game": [
+		{
+			"data": [
+				{
+					"text": "I am "
+				},
+				{
+					"text": "10",
+					"entity": "age"
+				},
+				{
+					"text": " years old and looking for "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " game with "
+				},
+				{
+					"text": "zombies",
+					"entity": "character"
+				},
+				{
+					"text": ". Can you recommend"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "killing",
+					"entity": "genre"
+				},
+				{
+					"text": " game with "
+				},
+				{
+					"text": "animals",
+					"entity": "character"
+				},
+				{
+					"text": " for "
+				},
+				{
+					"text": "under $10",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game with "
+				},
+				{
+					"text": "animal",
+					"entity": "character"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "under 10 bucks",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "running",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "airplane",
+					"entity": "character"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am "
+				},
+				{
+					"text": "10",
+					"entity": "age"
+				},
+				{
+					"text": " and looking for "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": " game. Can you recommend"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},{
+					"text": "RPG",
+					"entity": "genre"
+				},
+				{
+					"text": " game that is "
+				},
+				{
+					"text": "free?",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "multi-player",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "monsters",
+					"entity": "character"
+				},
+				{
+					"text": " and "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				}
+			]
+		}
+	],
+	"response.incorrect": [
+		{
+			"data": [
+				{
+					"text": "no this is not what I want"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "not right"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "not what i want"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "not correct"
+				}
+			]
+		}
+	],
+	"game.price": [
+		{
+			"data": [
+				{
+					"text": "do I have to pay"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "must pay"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SteamHelper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="build/botui.min.css">
+    <link rel="stylesheet" href="build/botui-theme-default.css">
+    <style>
+        .profil > img.agent {
+            content: normal;
+        }
+
+        .botui-actions-container {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .botui-actions-text {
+            font-size: 16px;
+        }
+
+        .botui-message-content.human {
+            background-color: #2029d6;
+        }
+
+        .botui-actions-text-submit {
+            display: inline-flex;
+            background: #2029d6;
+        }
+
+        .botui-actions-buttons-button {
+            margin-top: 0px;
+            background-color: #2029d6;
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="botui-app-container" id="hello-world">
+    <bot-ui></bot-ui>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="build/botui.js"></script>
+<script>
+    var botui = new BotUI('hello-world');
+    botui.message.add({
+        delay: 2000,
+        loading: true,
+        photo: true,
+        photo: '2.jpg',
+        content: 'Hi, I am Stellar from Steam Helper'
+    }).then(function () {
+        botui.message.add({
+            delay: 2000,
+            //loading: true,
+            photo: true,
+            photo: '2.jpg',
+            content: 'Your new game assistant.'
+        }).then(function () {
+            botui.message.add({
+                delay: 2000,
+                //loading: true,
+                photo: true,
+                photo: '2.jpg',
+                content: '  May I ask what kind of game you are looking for? '
+            }).then(function () {
+                botui.action.text({
+                    action: {
+                        placeholder: 'Enter your text here'
+                    }
+                }).then(function (res) { // will be called when it is submitted.
+                    ws.send(res.value); // will print whatever was typed in the field.
+                });
+            });
+        });
+
+    })
+    ws = new WebSocket('ws://127.0.0.1:5000/msg')
+
+    ws.onmessage = function (data) {
+        //alert(JSON.parse(data.data.item))
+        //app.messages_list.push(JSON.parse(data.data))
+        var s = JSON.parse(data.data)['msg']
+        //console.log(s)
+        if (s.length == 1) {
+            botui.message.add({
+                photo: '2.jpg',
+                type: 'html', // this is 'text' by default
+                content: s[0]
+            }).then(function () {
+                botui.action.text({
+                    action: {
+                        placeholder: 'Enter your text here',
+                        cssClass: 'textinput'
+                    }
+                }).then(function (res) { // will be called when it is submitted.
+                    ws.send(res.value); // will print whatever was typed in the field.
+                });
+            });
+        } else if (s.length == 2) {
+            botui.message.add({
+                photo: '2.jpg',
+                type: 'html', // this is 'text' by default
+                content: s[0]
+            }).then(function () {
+                botui.message.add({
+                    delay: 1000,
+                    type: 'html',
+                    //loading: true,
+                    photo: true,
+                    photo: '2.jpg',
+                    content: s[1]
+                }).then(function () {
+                    botui.action.text({
+                        action: {
+                            placeholder: 'Enter your text here',
+                            cssClass: 'textinput'
+                        }
+                    }).then(function (res) { // will be called when it is submitted.
+                        ws.send(res.value); // will print whatever was typed in the field.
+                    });
+                });
+            });
+        } else {
+            botui.message.add({
+                photo: true,
+                photo: '2.jpg',
+                loading: true
+            }).then(function (index) {
+                botui.message.update(index, {
+                    content: s[0],
+                    loading: false
+                }).then(function () {
+                    botui.message.add({
+                        delay: 1000,
+                        type: 'html',
+                        //loading: true,
+                        photo: true,
+                        photo: '2.jpg',
+                        content: s[1]
+                    }).then(function () {
+                        botui.message.add({
+                            delay: 1000,
+                            type: 'html',
+                            //loading: true,
+                            photo: true,
+                            photo: '2.jpg',
+                            content: s[2]
+                        }).then(function () {
+                            botui.message.add({
+                                delay: 1000,
+                                type: 'html',
+                                //loading: true,
+                                photo: true,
+                                photo: '2.jpg',
+                                content: s[3]
+                            }).then(function () {
+                                return botui.action.button({
+                                    delay: 1000,
+                                    addMessage: true, // so we could the address in message instead if 'Existing Address'
+                                    action: [{
+                                        text: 'yes',
+                                        value: 'yes'
+                                    }, {
+                                        text: 'no',
+                                        value: 'no'
+                                    }]
+                                })
+                            }).then(function (res) { // will be called when it is submitted.
+                                ws.send(res.value); // will print whatever was typed in the field.
+                            });
+                        });
+                    });
+                });
+            });
+
+
+            /*
+
+            */
+
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

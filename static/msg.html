@@ -1,0 +1,207 @@
+
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatbox Test</title>
+    <style>
+        /**重置标签默认样式*/
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: '微软雅黑'
+        }
+
+        .container {
+            width: 450px;
+            height: 780px;
+            background: #eee;
+            margin: 80px auto 0;
+            position: relative;
+            box-shadow: 20px 20px 55px #777;
+        }
+
+        .header {
+            background: #000;
+            height: 40px;
+            color: #fff;
+            line-height: 34px;
+            font-size: 20px;
+            padding: 0 10px;
+        }
+
+        .footer {
+            width: 430px;
+            height: 50px;
+            background: #666;
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+        }
+
+        .footer input {
+            width: 275px;
+            height: 45px;
+            outline: none;
+            font-size: 20px;
+            text-indent: 10px;
+            position: absolute;
+            border-radius: 6px;
+            right: 80px;
+        }
+
+        .footer span {
+            display: inline-block;
+            width: 62px;
+            height: 48px;
+            background: #ccc;
+            font-weight: 900;
+            line-height: 45px;
+            cursor: pointer;
+            text-align: center;
+            position: absolute;
+            right: 10px;
+            border-radius: 6px;
+        }
+
+        .footer span:hover {
+            color: #fff;
+            background: #999;
+        }
+
+        #user_face_icon {
+            display: inline-block;
+            background: red;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            position: absolute;
+            bottom: 6px;
+            left: 14px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .content {
+            font-size: 20px;
+            width: 435px;
+            height: 662px;
+            overflow: auto;
+            padding: 5px;
+        }
+
+        .content li {
+            margin-top: 10px;
+            padding-left: 10px;
+            width: 412px;
+            display: block;
+            clear: both;
+            overflow: hidden;
+        }
+
+        .content li img {
+            float: left;
+        }
+
+        .content li span {
+            background: #7cfc00;
+            padding: 10px;
+            border-radius: 10px;
+            float: left;
+            margin: 6px 10px 0 10px;
+            max-width: 310px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 3px #ccc;
+        }
+
+        .content li img.imgleft {
+            float: left;
+        }
+
+        .content li img.imgright {
+            float: right;
+        }
+
+        .content li span.spanleft {
+            float: left;
+            background: #fff;
+        }
+
+        .content li span.spanright {
+            float: right;
+            background: #7cfc00;
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="container">
+    <div class="header">
+        <span style="float: left;">Chat with Steam helper</span>
+        <span style="float: right;">14:21</span>
+    </div>
+    <ul class="content">
+        <!-- Message -->
+        <li v-for="(item,index) in messages_list" v-key="index">
+            <img v-bind:src="item.user" v-bind:class="{'imgright':item.id}"><span v-bind:class="{'spanright':item.id}">{{item.msg}}</span>
+        </li>
+    </ul>
+    <div class="footer">
+        <div id="user_face_icon">
+            <img src="http://www.xttblog.com/icons/favicon.ico" alt="">
+        </div>
+        <input id="text" v-model="sends" type="text" placeholder="Say something">
+        <span id="btn" v-on:click="sendMessage">Send</span>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+<script>
+    // 连接服务器
+    ws = new WebSocket('ws://127.0.0.1:5000/msg')
+    // 接收消息
+    ws.onmessage = function (data) {
+        // 将服务器每次发来的消息存放在vue实例中
+        app.messages_list.push(JSON.parse(data.data))
+    }
+	// 实例化一个vue对象
+    var app = new Vue({
+        el: '#app',
+        data: {
+            // 发送给服务器的内容，与发送表单绑定
+            sends: '',
+            // 存放服务器与客户端聊天数据
+            messages_list: []
+        },
+        watch: {
+            // 监听聊天数据，每次有变化将聊天区域滚动条定位到底部
+            messages_list: function (newQuestion, oldQuestion) {
+                var content = document.getElementsByTagName('ul')[0];
+                content.scrollTop = content.scrollHeight;
+            }
+        },
+        methods: {
+            // 发送给服务端消息
+            sendMessage: function () {
+                // 现将要发送的消息存放到聊天数据中心
+                this.messages_list.push({
+                    id: 1,
+                    user: 'https://pic.qqtn.com/up/2018-2/15175580428030394.gif',
+                    msg: this.sends
+                })
+                // 发送给服务器消息
+                ws.send(this.sends)
+                // 发送消息后置空发送消息框
+                this.sends = ''
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

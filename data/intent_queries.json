@@ -1,0 +1,2084 @@
+{
+	"commonQ.assist": [
+		{
+			"data": [
+				{
+					"text": "Need help please"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "hello"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "hi"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Need help"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Will you help me"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Need help plz"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you help me"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "i need help"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you tell some info"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Help me please"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "hello"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "hi"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "hi there"
+				}
+			]
+		}
+	],
+	"commonQ.how": [
+		{
+			"data": [
+				{
+					"text": "Hows life"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "How was your day"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "How you doin"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Whats up"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What's happening"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Wassup"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "How you doing"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are you fine"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are you good"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "How are you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are you fine"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are you fine"
+				}
+			]
+		}
+	],
+	"commonQ.name": [
+		{
+			"data": [
+				{
+					"text": "Who are you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What can I call you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you tell me your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are you there"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any one there"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What is your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "are you abir"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Is anyone there"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Your name is"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Who is chatting"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Who am I chatting with"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What's your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What should I say as your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Tell me your name"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What are you called"
+				}
+			]
+		}
+	],
+	"commonQ.wait": [
+		{
+			"data": [
+				{
+					"text": "Wait for two minutes"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "will you please wait"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you please wait"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Wait for some time"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Want you to wait for me"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you wait for two minutes"
+				}
+			]
+		}
+	],
+	"recommend.game": [
+		{
+			"data": [
+				{
+					"text": "Is there any "
+				},
+				{
+					"text": "strategy",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "anything else"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "give me some "
+				},
+				{
+					"text": "strategy",
+					"entity": "genre"
+				},
+				{
+					"text": " games"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Add some "
+				},
+				{
+					"text": "strategy",
+					"entity": "genre"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any other game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you recommend me an "
+				},
+				{
+					"text": "adventure",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "strategy",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What are the "
+				},
+				{
+					"text": "best",
+					"entity": "rating"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "sports",
+					"entity": "genre"
+				},
+				{
+					"text": " game you have"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Are there any "
+				},
+				{
+					"text": "good",
+					"entity": "rating"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game you can recommend"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Tell me a "
+				},
+				{
+					"text": "good",
+					"entity": "rating"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Recommend me a "
+				},
+				{
+					"text": "RPG",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Please recommend a  "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Find me a "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for"
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "looking for "
+				},
+				{
+					"text": "killing",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "looking for "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": "game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Introduce me a "
+				},
+				{
+					"text": "zombie",
+					"entity": "character"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any game to introduce me"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any game I must try"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any game I should try"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any game fun to play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},
+				{
+					"text": "violent",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I would like you to recommend a game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Show me some "
+				},
+				{
+					"text": "newly release",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Show me some "
+				},
+				{
+					"text": "new release",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Show me some "
+				},
+				{
+					"text": "popular",
+					"entity": "rating"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any game "
+				},
+				{
+					"text": "under $10",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any game "
+				},
+				{
+					"text": "under 10 bucks",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "adventure",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "kids",
+					"entity": "age"
+				},
+				{
+					"text": "under 10",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "age",
+					"entity": "age"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "under 10",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "search for "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "under 10 bucks",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "under $20",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game that is "
+				},
+				{
+					"text": "less than $20",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game that is "
+				},
+				{
+					"text": "less than 20 bucks",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": "  to play game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any game "
+				},
+				{
+					"text": "under 10 bucks",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any game for "
+				},
+				{
+					"text": "kids",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any game for "
+				},
+				{
+					"text": "teenager",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "kids",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "adventure",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "age under 10",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "arcade",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "kids",
+					"entity": "age"
+				},
+				{
+					"text": "under 10 years old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Any "
+				},
+				{
+					"text": "arcade",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "teenager",
+					"entity": "age"
+				},
+				{
+					"text": "under 16 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I like "
+				},
+				{
+					"text": "arcade",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "teenager",
+					"entity": "age"
+				},
+				{
+					"text": "under 16 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can you find me a "
+				},
+				{
+					"text": "",
+					"entity": "genre"
+				},
+				{
+					"text": " game for "
+				},
+				{
+					"text": "teenager",
+					"entity": "age"
+				},
+				{
+					"text": "under 16 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am "
+				},
+				{
+					"text": "10 years old",
+					"entity": "age"
+				},
+				{
+					"text": " and I am looking for an "
+				},
+				{
+					"text": "adventure",
+					"entity": "genre"
+				},
+				{
+					"text": " game"
+				},
+				{
+					"text": ". "
+				},
+				{
+					"text": "Can you recommend?"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any "
+				},
+				{
+					"text": "cheaper",
+					"entity": "price"
+				},
+				{
+					"text": " game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "can you recommend other game "
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any other game "
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any other similiar game "
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am looking for games with "
+				},
+				{
+					"text": "zombies",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any games with "
+				},
+				{
+					"text": "aliens",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "recommend games with "
+				},
+				{
+					"text": "animal",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "recommend "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " games with "
+				},
+				{
+					"text": "animals",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "looking for "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " games with "
+				},
+				{
+					"text": "animals",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "searching for "
+				},
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " games with "
+				},
+				{
+					"text": "aliens",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "rpg",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "monsters",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "action",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "collecting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "monster",
+					"entity": "character"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "multi-player",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "killing",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "alien",
+					"entity": "character"
+				},
+				{
+					"text": " and "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "RPG",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "hunting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "monster",
+					"entity": "character"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "free",
+					"entity": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "free",
+					"entity": "price"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "arcade",
+					"entity": "genre"
+				},
+				{
+					"text": " game "
+				},
+				{
+					"text": "shooting",
+					"entity": "genre"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "monster",
+					"entity": "character"
+				}
+			]
+		}
+	],
+	"response.abusive": [
+		{
+			"data": [
+				{
+					"text": "Hate you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Go die"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Kill you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Damn you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "FU"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Fuck you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am going to "
+				},
+				{
+					"text": "kill you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Need help"
+				}
+			]
+		}
+	],
+	"response.negative": [
+		{
+			"data": [
+				{
+					"text": "Dislike you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "You suck"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "You did not understand"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "You are not listening"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "You are hopeless"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is hopesless"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is useless"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "You are useless"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is a waste of time"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Stop wasting my timee"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is pointless"
+				}
+			]
+		}
+	],
+	"response.incorrect": [
+		{
+			"data": [
+				{
+					"text": "Not what I am looking for"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is not what I am looking for"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "This is not what I am searching for"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "wrong"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "incorrect"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "that is not right"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "that is not correct"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "No I don't think you understand"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "No that's not what I want"
+				}
+			]
+		}
+	],
+	"game.price": [
+		{
+			"data": [
+				{
+					"text": "how much"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What is the cost"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "how much does it cost"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "What is the price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "How much to own it"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "how much to pay"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "pay how much"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "price"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "cost"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "free"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "free of charge"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it free"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "free to play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "have to pay"
+				}
+			]
+		}
+	],
+	"game.age": [
+		{
+			"data": [
+				{
+					"text": "what is the age rating"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "what is the age limit"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is there age limit"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "how old to play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "what is the age restriction"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "what is the min age to play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suitable for "
+				},
+				{
+					"text": "teenagers",
+					"entity": "age"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "under 16 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suitable for "
+				},
+				{
+					"text": "kids",
+					"entity": "age"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "under 12 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suitable for "
+				},
+				{
+					"text": "children",
+					"entity": "age"
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "under 10 yrs old",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suitable for "
+				},
+				{
+					"text": "teenagers",
+					"entity": "age"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "any age limit"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "what age to play,"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "can you tell me the age limit"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am . Can I play"
+				},
+				{
+					"text": "12",
+					"entity": "age"
+				},
+				{
+					"text": ". "
+				},
+				{
+					"text": "Can I play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am . Can I play"
+				},
+				{
+					"text": "12",
+					"entity": "age"
+				},
+				{
+					"text": ". "
+				},
+				{
+					"text": "Can I play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am . Can I play "
+				},
+				{
+					"text": "10 years old",
+					"entity": "age"
+				},
+				{
+					"text": ". "
+				},
+				{
+					"text": "Can I play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "I am . Can I play "
+				},
+				{
+					"text": "16 yrs old",
+					"entity": "age"
+				},
+				{
+					"text": ". "
+				},
+				{
+					"text": "Can I play"
+				}
+			]
+		}
+	],
+	"game.release_date": [
+		{
+			"data": [
+				{
+					"text": "when was the game released"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "when published"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "release date"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "when was the game published"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "what is the release date"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "date"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it release this year"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it a new game"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "how long has it been released"
+				}
+			]
+		}
+	],
+	"game.platforms": [
+		{
+			"data": [
+				{
+					"text": "Can I play it on Mac"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can I play the game on Mac"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can I play it on linux"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "Can I play the game on linux"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "how many platforms it supports"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "platforms"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suppport mac"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "is it suppport linux"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "On which platform can play"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "mac available"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "support which platform"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "linux available"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "which platform"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "can mac play"
+				}
+			]
+		}
+
+	],
+	"response.positive": [
+		{
+			"data": [
+				{
+					"text": "thank you"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "thanks"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "thx"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "great"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"text": "good job"
+				}
+			]
+		}
+	]
+}
