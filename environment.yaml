@@ -1,0 +1,15 @@
+name: Steam_Helper
+channels:
+    - defaults
+dependencies:
+    - python=3.6
+    - pip:
+        - flask
+        - gevent-websocket
+        - pandas
+        - numpy
+        - scikit-learn
+        - nltk
+        - spacy
+        - python-crfsuite
+        - jupyter
