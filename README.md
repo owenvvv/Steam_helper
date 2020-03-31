@@ -19,7 +19,7 @@ The recommend engine provides three solutions in different levels. In the docume
 
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-
+https://drive.google.com/file/d/1Vb8sBB_PotAl4JL2sbHBVcyx84CDhVRv/view
 
 # SECTION 5 : INSTRUCTION GUIDE
 
@@ -35,7 +35,7 @@ To set up the environment
 
 ## Start Chatbot
 1. python main.py 
-
+2. Use index.html in Front-end folder to chat with chatbox
 # SECTION 6 : Models
 
 ## Intent Detection
